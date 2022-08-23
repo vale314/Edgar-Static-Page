@@ -1,0 +1,233 @@
+body {
+    font-family: Raleway,sans-serif;
+}
+
+/* navBar */
+.dropdown-toggle::after {
+    display: none;
+  }
+.text-decoration-none{
+  text-decoration: none!important;
+}
+/* Font Awesome Icons have variable width. Added fixed width to fix that.*/
+.icon-width { width: 2rem;}
+
+
+/* Carosuel */
+.section-carousel{
+    height: 100vh;
+}
+
+.carousel-caption {
+    bottom: 35% !important;
+}
+
+.carousel-caption > h5 {
+    font-size: 4.25rem;
+}
+
+.carousel-item > .h-100vh {
+    height: 100vh;
+}
+
+.carousel-item > .bg-black {
+    position: absolute;
+    background-color: black; 
+    opacity: .3;
+}
+
+.carousel-caption > a{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #F8B50B;
+    margin-top: 15px;
+}
+
+/* Banner 01 */
+.pb-container {
+    margin-top: 4.9rem;
+}
+
+.banner-01 {
+    background-image: url("/img/texture.jpg");
+    background-repeat: repeat;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.banner-01 > h1, .banner-02 h1 {
+    color:white;
+}
+
+.row-banner-01 {
+    display: contents;
+}
+
+/* Banner 02 */
+.banner-02 {
+    display: contents;
+}
+
+.banner-02 {
+    color: white;
+}
+
+.banner-02 > div {
+    background-image: url("/img/texture.jpg");
+    background-repeat: repeat;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+/* Servicios */
+.servicios {
+    background-image: url("/img/texture.jpg");
+    background-repeat: repeat;
+    padding: 3.9rem 0rem 3.9rem 3.9rem;
+}
+
+.servicios {
+    color: white;
+}
+
+.servicios .row {
+    display: contents;
+}
+
+.servicios h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.servicios .col-3 {
+    margin-top: 3rem;
+}
+
+.servicios img {
+    margin-bottom: 2rem;
+}
+
+.servicios p {
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.servicios h2 {
+    color: #F8B50B;
+    font-size: 1.8rem;
+}
+
+.servicios a {
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: underline !important;
+}
+
+.servicios svg {
+    color: #F8B50B;
+}
+
+/* Cards */
+.card.full-cards h1 {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    color:white;
+}
+
+.card.full-cards .card-body {
+    background-image: url("/img/texture.jpg"); 
+    background-repeat: repeat;
+}
+
+/* Plana */
+.plana > h1 {
+    font-size: 2.9rem;
+    font-weight: 500;
+}
+
+.plana svg {
+    font-size: 2rem;
+    color: #F8B50B;
+}
+
+.plana h2 {
+    color: #F8B50B;
+    font-weight: 500;
+    margin-left: 1.3rem;
+}
+
+.plana h2:hover {
+    text-decoration: underline;
+}
+
+.plana p {
+    color: #181818;
+    font-weight: 500;
+    opacity: .6;
+    font-size: 1rem;
+    margin-left: 4.3rem;
+}
+
+@media (max-width: 576px) { 
+
+    /* Carousel */
+    .carousel-caption {
+        bottom: 15% !important;
+    }
+
+    .carousel-caption > h5 {
+        font-size: 1.85rem;
+    }
+
+    .carousel-caption > p {
+        font-size: .9rem;
+        font-weight: 500;
+    }
+
+    .carousel-item > .h-100vh {
+        height: 53vh;
+    }
+    
+    /* Material */
+    .b-o{
+        background-color: #F8B50B;
+    }
+
+    .card-mb {
+        margin-bottom: 1.5rem !important;
+    }
+
+    /* Banner-01 */
+    .banner-01 {
+        padding: 1rem 1.5rem 1rem 1.5rem;
+    }
+
+    /* Servicios */
+    .servicios {
+        padding: 1rem 0rem 1rem 0rem;
+    }
+
+    .servicios {
+        padding: 2rem 0rem 2rem 0rem;
+    }
+
+    .servicios h1 {
+        margin-bottom: 1.5rem;
+    }
+    
+    .servicios .servicio {
+        margin-bottom: 2rem;
+    }
+
+    /* Plana */
+    .plana > h1 {
+        font-size: 1.9rem;
+        font-weight: 500;
+    }
+
+    .plana h2 {
+        margin-left: 1rem;
+    }
+
+    .plana p {
+        margin-left: 0rem;
+    }
+ }
