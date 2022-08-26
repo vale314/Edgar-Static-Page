@@ -281,6 +281,34 @@ body {
     margin-bottom: 30px;
 }
 
+/* Vent */
+.vent h4 {
+    color: #F8B50B;
+}
+
+.vent p {
+    opacity: .5;
+}
+
+.vent a {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+/* Footer */
+.footer {
+    background-color: #000000;
+    background-repeat: repeat;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.footer h6, .footer span,.footer a {
+    color: grey;
+}
+
 @media (max-width: 576px) { 
 
     /* Carousel */
