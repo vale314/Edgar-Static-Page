@@ -1,0 +1,548 @@
+/* Fonts */
+@font-face { font-family: Raleway-Regular; src: url("../fonts/Raleway-Regular.ttf"); } 
+
+body {
+    font-family: sans-serif;
+}
+
+
+/* navBar */
+.dropdown-toggle::after {
+    display: none;
+}
+.text-decoration-none{
+    text-decoration: none!important;
+}
+.navbar {
+    font-family: Raleway-Regular;
+}
+
+.logo-text {
+    margin-left: 0rem;
+}
+
+.logo-phone {
+    margin-left: 2rem;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0.2rem;
+}
+
+.telefono {
+    font-family: initial !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+a.nav-link:hover {
+    cursor: pointer;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+.img-resize {
+    height: 19.4rem !important;
+}
+
+.img-resize01 {
+    height: 17.4rem !important;
+}
+
+.img-resize02 {
+    height: 21rem !important;
+}
+
+.img-resize03 {
+    height: 21rem !important;
+}
+
+/* Font Awesome Icons have variable width. Added fixed width to fix that.*/
+.icon-width { width: 2rem;}
+
+.text-blck {
+    color: #333;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+    line-height: 1.2;
+}
+
+/* Carosuel */
+.section-carousel{
+    height: 100vh;
+}
+
+.carousel-caption {
+    bottom: 35% !important;
+}
+
+.carousel-caption > h5 {
+    font-size: 4.25rem;
+}
+
+.carousel-item > .h-100vh {
+    height: 100vh;
+}
+
+.carousel-item > .bg-black {
+    position: absolute;
+    background-color: black; 
+    opacity: .3;
+}
+
+.carousel-caption > a{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #F8B50B;
+    margin-top: 15px;
+}
+
+/* Banner 01 */
+.pb-container {
+    margin-top: 4.9rem;
+}
+
+.banner-01 {
+    background-image: url("/img/texture.jpg");
+    background-repeat: repeat;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.banner-01 > h1, .banner-02 h1 {
+    color:white;
+}
+
+.row-banner-01 {
+    display: contents;
+}
+
+/* Banner 02 */
+.banner-02 {
+    display: contents;
+}
+
+.banner-02 {
+    color: white;
+}
+
+.banner-02 > div {
+    background-image: url("/img/texture.jpg");
+    background-repeat: repeat;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+/* Servicios */
+.servicios {
+    background-image: url("/img/texture.jpg");
+    background-repeat: repeat;
+    padding: 3.9rem 0rem 3.9rem 3.9rem;
+}
+
+.servicios {
+    color: white;
+}
+
+.servicios .row {
+    display: contents;
+}
+
+.servicios h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.servicios .col-3 {
+    margin-top: 3rem;
+}
+
+.servicios img {
+    margin-bottom: 2rem;
+}
+
+.servicios p {
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.servicios h2 {
+    color: #F8B50B;
+    font-size: 1.8rem;
+}
+
+.servicios a {
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: underline !important;
+}
+
+.servicios svg {
+    color: #F8B50B;
+}
+
+/* Cards */
+.card.full-cards h1 {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    color:white;
+}
+
+.card.full-cards .card-body {
+    background-image: url("/img/texture.jpg"); 
+    background-repeat: repeat;
+}
+
+/* Plana */
+.plana > h1 {
+    font-size: 2.9rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.plana svg {
+    font-size: 2rem;
+    color: #F8B50B;
+}
+
+.plana h2 {
+    color: #F8B50B;
+    font-weight: 500;
+    margin-left: 1.3rem;
+}
+
+.plana h2:hover {
+    text-decoration: underline;
+}
+
+.plana p {
+    color: #181818;
+    font-weight: 500;
+    opacity: .6;
+    font-size: 1rem;
+    margin-left: 4.3rem;
+}
+
+/* Testimonios */
+.testimonios > div {
+    padding: 3.9rem 0rem 3.9rem 0rem !important;
+}
+
+.testimonios h5 {
+    color: #F8B50B;
+}
+
+.testimonios p {
+    text-align: justify;
+}
+
+.testimonios h5 {
+    text-align: center;
+}
+
+.testimonios h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+/* Contacto */
+
+.contacto h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.contacto h5 {
+    color: #F8B50B;
+}
+
+.contacto p {
+    opacity: .6;
+    padding-bottom: .5rem;
+}
+
+.contacto ol, ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacto li {
+    padding-bottom: .2rem;
+}
+
+.contacto ul {
+    padding-bottom: .6rem;
+}
+
+.contacto a {
+    text-decoration: none;
+    color:#F8B50B !important;
+}
+
+/* FORM */
+.form-wrap {
+    position: relative;
+}
+
+.rd-form-custom .form-input {
+    font-size: 15px;
+    color: #333;
+    background: #fff;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    padding: 12px 19px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #b7b7b7;
+    background-color: #f5f5f5;
+    background-image: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    transition: .3s ease-in-out;
+    border: 1px solid #f5f5f5;
+}
+
+
+.rd-form-custom .form-label {
+    font-size: 15px;
+    color: #333;
+}
+
+.form-label {
+    margin-bottom: 0;
+    color: #b7b7b7;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    pointer-events: none;
+    text-align: left;
+    z-index: 9;
+    transition: .25s;
+    will-change: transform;
+    transform: translateY(-50%);
+}
+
+.row-30>* {
+    margin-bottom: 30px;
+}
+
+/* Vent */
+.vent h4 {
+    color: #F8B50B;
+}
+
+.vent p {
+    opacity: .5;
+}
+
+.vent a {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+/* Footer */
+.footer {
+    background-color: #000000;
+    background-repeat: repeat;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.footer h6, .footer span,.footer a {
+    color: grey;
+}
+
+.navbar-light.navbar {
+    background-color: #e8b638 !important;
+}
+
+/* Phone */
+#phoneButton {
+    display: block;
+    position: fixed;
+    bottom: 38px;
+    right: 100px;
+    z-index: 9;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 150px;
+    box-shadow: 0 0 2px rgb(0 0 0 / 12%), 2px 3px 8px 0 rgb(0 0 0 / 30%);
+    background-color: #008ddf;
+}
+
+/* WhatsApp */
+#whatssap {
+    display: block;
+    position: fixed;
+    bottom: 38px;
+    right: 30px;
+    z-index: 9;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 150px;
+    box-shadow: 0 0 2px rgb(0 0 0 / 12%), 2px 3px 8px 0 rgb(0 0 0 / 30%);
+    background-color: #25d366;
+}
+
+.btn.btn-warning:hover {
+    background-color: #333333;
+    color: white !important;
+    border-color: #333333 !important;
+}
+
+
+a.card.full-cards {
+    text-decoration: underline;
+    text-decoration-color: #F8B50B;
+}
+
+/* a.card.full-cards:hover {
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+} */
+
+h1.card-text{
+    color:#f5f5f5;
+}
+
+h1.card-text:hover{
+    color:#F8B50B;
+}
+
+
+@media (max-width: 576px) { 
+
+    /* Carousel */
+    .carousel-caption {
+        bottom: 15% !important;
+    }
+
+    .carousel-caption > h5 {
+        font-size: 1.85rem;
+    }
+
+    .carousel-caption > p {
+        font-size: .9rem;
+        font-weight: 500;
+    }
+
+    .carousel-item > .h-100vh {
+        height: 53vh;
+    }
+    
+    /* Material */
+    .b-o{
+        background-color: #F8B50B;
+    }
+
+    .card-mb {
+        margin-bottom: 1.5rem !important;
+    }
+
+    /* Banner-01 */
+    .banner-01 {
+        padding: 1rem 1.5rem 1rem 1.5rem;
+    }
+
+    /* Servicios */
+    .servicios {
+        padding: 1rem 0rem 1rem 0rem;
+    }
+
+    .servicios {
+        padding: 2rem 0rem 2rem 0rem;
+    }
+
+    .servicios h1 {
+        margin-bottom: 1.5rem;
+    }
+    
+    .servicios .servicio {
+        margin-bottom: 2rem;
+    }
+
+    /* Plana */
+    .plana > h1 {
+        font-size: 1.9rem;
+        font-weight: 500;
+    }
+
+    .plana h2 {
+        margin-left: 1rem;
+    }
+
+    .plana p {
+        margin-left: 0rem;
+    }
+
+    .plana {
+        margin: 2rem 0rem 2rem 0rem;
+    }
+
+    /* Testimonios */
+    .testimonios {
+        padding: 2.5rem 0rem 2.5rem 0rem !important;
+    }
+
+    .d-contents {
+        display: contents;
+    }
+
+    /* Contacto */
+    .contacto {
+        padding: 2.5rem 0rem 2.5rem 0rem !important;
+    }
+
+    .contacto > .row {
+        display: contents;
+    }
+
+    /* WhatsApp */
+
+    #whatssap {
+        bottom: 38px;
+    }
+
+    /* phone */
+    .logo-text {
+        width: 5rem;
+        height: 2.8rem;
+        margin-left: 0.3rem;
+    }
+
+    /* Resize img */
+    .img-resize {
+        height: auto !important;
+    }
+
+    .img-resize01, .img-resize02, .img-resize03  {
+        height: auto !important;
+    }
+    
+ }
