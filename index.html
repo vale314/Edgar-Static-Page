@@ -25,6 +25,8 @@
     <link rel="icon" href="./img/favicon.png" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./img/favicon.png" />
 
+    <link rel="preload" as="font" href="./fonts/Raleway-Regular.ttf" type="font/ttf" crossorigin="anonymous">
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -34,14 +36,14 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-
     <div class="header">
+
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-light fixed-top">
         
             <div class="container"> 
-            <a class="navbar-brand d-flex align-items-center" href="#">
-              <svg width="40px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <a class="navbar-brand d-flex align-items-center" href="#">
+              <!-- <svg width="40px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                 <g>
                   <g>
                     <path d="M511.981,118.509c-0.135-2.956-1.892-5.726-4.565-7.04l-159.24-79.62c-3.776-1.887-8.363-0.64-10.664,2.898 L229.916,200.282l-55.413-85.891c-0.796-1.235-1.945-2.264-3.259-2.922l-159.24-79.62C6.582,29.138,0,33.218,0,39.268v79.621 c0,4.581,3.712,8.294,8.294,8.294c4.581,0,8.294-3.712,8.294-.294V52.687l142.652,71.326v335.32L16.587,388.008V154.277	c0-4.581-3.712-8.294-8.294-8.294c-4.581,0-8.294,3.712-8.294,8.294v238.857c0,3.142,1.775,6.013,4.585,7.418l159.24,79.62	c5.427,2.714,12.003-1.375,12.003-7.418V318.087l324.17,162.085c5.427,2.714,12.003-1.375,12.003-7.418V118.888	C512,118.76,511.987,118.636,511.981,118.509z M175.827,299.541v-152.5l145.239,225.12L175.827,299.541z M495.413,459.335
@@ -49,69 +51,85 @@
                     L239.77,215.555L347.383,49.998l144.717,72.359l-26.387,45.446c-2.299,3.961-0.952,9.037,3.009,11.337	c3.958,2.297,9.035,0.953,11.337-3.009l15.354-26.443V459.335z" fill="#000" />
                   </g>
                 </g>
-              </svg>
+              </svg> -->
 
-              <span class="ml-3 font-weight-bold">&nbsp;&nbsp;PAYP</span>
+              <!-- <img src="/img/logo-circle.png" alt="" width="50" height="50" class="d-inline-block align-text-top logo-text"> -->
+
+              <!-- <span class="ml-3 font-weight-bold">
+                &nbsp;&nbsp;PAYP
+              </span> -->
+
+              <img src="/img/Logo.png" alt="" width="100" height="50" class="d-inline-block align-text-top logo-text">
+              <img src="/img/telefono.jpg" alt="" width="100" height="50" class="d-md-inline-block d-none align-text-top logo-phone">
 
               </a>
-            
-            <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar4" role="button" aria-expanded="false" aria-controls="collapseExample">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            
-            <div class="collapse navbar-collapse" id="navbar4">
-              <ul class="navbar-nav mr-auto pl-lg-4">
-                <li class="nav-item px-lg-2 active"> <a class="nav-link" href="#"> <span class="d-inline-block d-lg-none icon-width"><i class="fas fa-home"></i></span>Home</a> </li>
-                <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-spa"></i></span>Services</a> </li>
-                <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="far fa-user"></i></i></span>About</a> </li>
-              
-                <li class="nav-item px-lg-2 dropdown d-menu">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-bs-haspopup="true" aria-bs-expanded="false">
-                    <span class="d-inline-block d-lg-none icon-width">
-                      <i class="far fa-caret-square-down"></i>
-                    </span>
-                    Dropdown
-                    <svg  id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                  </a>
 
-                  <div class="dropdown-menu shadow-sm sm-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
+              <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+            
+              <div class="collapse navbar-collapse justify-content-end" id="navbar4">
+                <ul class="navbar-nav mr-auto pl-lg-4">
+                  <li class="nav-item px-lg-2 active"> <a class="nav-link text-blck" href="#"> <span class="d-inline-block d-lg-none icon-width"><i class="fas fa-home"></i></span>Inicio</a> </li>
+                  <li class="nav-item px-lg-2"> <a class="nav-link text-blck" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-spa"></i></span>Nosotros</a> </li>
+                  <li class="nav-item px-lg-2"> <a class="nav-link text-blck" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="far fa-user"></i></i></span>Servicios</a> </li>
                 
-                <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="far fa-envelope"></i></span>Contact</a> </li>
-              </ul>
+                  <li class="nav-item px-lg-2 dropdown d-menu">
+                    <a class="nav-link dropdown-toggle text-blck" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-bs-haspopup="true" aria-bs-expanded="false">
+                      <span class="d-inline-block d-lg-none icon-width">
+                        <i class="far fa-caret-square-down"></i>
+                      </span>
+                      Productos
+                      <svg  id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                    </a>
 
-              <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
-                  <li class="nav-item"> 
-                    <a class="nav-link" href="#">
-                      <i class="fab fa-twitter"></i><span class="d-lg-none ml-3">Twitter</span>
-                    </a> 
+                    <div class="dropdown-menu shadow-sm sm-menu" aria-labelledby="dropdown01">
+                      <a class="dropdown-item" href="#">Alambrados</a>
+                      <a class="dropdown-item" href="#">Euro Panel</a>
+                      <a class="dropdown-item" href="#">Electrocercas</a>
+                      <a class="dropdown-item" href="#">Techados</a>
+                      <a class="dropdown-item" href="#">Puntas de Agave</a>
+                    </div>
                   </li>
-
-                  <li class="nav-item"> 
-                    <a class="nav-link" href="#">
-                      <i class="fab fa-facebook"></i><span class="d-lg-none ml-3">Facebook</span>
-                    </a> 
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      <i class="fab fa-instagram"></i><span class="d-lg-none ml-3">Instagram</span>
-                    </a> 
-                  </li>
-                  <li class="nav-item"> 
-                    <a class="nav-link" href="#">
-                      <i class="fab fa-linkedin"></i><span class="d-lg-none ml-3">Linkedin</span>
+                  
+                  <li class="nav-item px-lg-2"> 
+                    <a class="nav-link text-blck" href="#">
+                      <span class="d-inline-block d-lg-none icon-width">
+                        <i class="far fa-envelope"></i>
+                      </span>
+                      Contacto
                     </a>
                   </li>
-              </ul>
-            </div>
+                </ul>
+
+                <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
+                    <li class="nav-item"> 
+                      <a class="nav-link" href="#">
+                        <i class="fab fa-twitter"></i><span class="d-lg-none ml-3">Twitter</span>
+                      </a> 
+                    </li>
+
+                    <li class="nav-item"> 
+                      <a class="nav-link" href="#">
+                        <i class="fab fa-facebook"></i><span class="d-lg-none ml-3">Facebook</span>
+                      </a> 
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="fab fa-instagram"></i><span class="d-lg-none ml-3">Instagram</span>
+                      </a> 
+                    </li>
+                    <li class="nav-item"> 
+                      <a class="nav-link" href="#">
+                        <span class="d-lg-none ml-3 telefono">33 38296 4448</span>
+                      </a>
+                    </li>
+                </ul>
+              </div>
           </div>
         </nav>
         <!-- End NavBar -->
@@ -124,51 +142,53 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
+
           <div class="carousel-item active">
+            <div class="d-block w-100 h-100vh bg-black"></div>
+            <img src="/img/trabajos/alambrados02.jpeg" class="d-block w-100 h-100vh" alt="...">
+
+            <div class="carousel-caption ">
+              <p class="d-block d-md-none b-o">Alambrados Alta Seguridad</p>
+              <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                  <p class="d-none d-md-block b-o">Protección Perimetral Hoagares y Negocios.</p>
+                </div>
+              </div>
+              <h5>Alambrados Alta Seguridad</h5>
+              <a class="cotizar" href="tel:3338296448">COTIZAR AHORA</a>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
               
               <div class="d-block w-100 h-100vh bg-black"></div>
-              <img src="../img/carusel01.jpeg" class="d-block w-100 h-100vh" alt="...">
+              <img src="/img/trabajos/alambrados01.jpeg" class="d-block w-100 h-100vh" alt="...">
 
               <div class="carousel-caption ">
                 <p class="d-block d-md-none b-o">Alambrados En Guadalajara</p>
                 <div class="row">
                   <div class="col-12 d-flex justify-content-center">
-                    <p class="d-none d-md-block b-o">Some representative placeholder content for the third slide.</p>
+                    <p class="d-none d-md-block b-o">Instalación De Alambrados, Para Hoagares, Huertos y Más</p>
                   </div>
                 </div>
-                <h5>Alambrados Alta Seguridad</h5>
+                <h5>Alambrados En Guadalajara</h5>
                 <a class="cotizar" href="tel:3338296448">COTIZAR AHORA</a>
               </div>
           </div>
 
           <div class="carousel-item">
             <div class="d-block w-100 h-100vh bg-black"></div>
-            <img src="../img/carusel01.jpeg" class="d-block w-100 h-100vh" alt="...">
+            <img src="/img/trabajos/alambrados03.jpeg" class="d-block w-100 h-100vh" alt="...">
 
             <div class="carousel-caption ">
-              <p class="d-block d-md-none b-o">Alambrados En Guadalajara</p>
+              <p class="d-block d-md-none b-o">Alambrado con Púas</p>
               <div class="row">
                 <div class="col-12 d-flex justify-content-center">
-                  <p class="d-none d-md-block b-o">Some representative placeholder content for the third slide.</p>
+                  <p class="d-none d-md-block b-o">Instalación En Guadalajara, Zapopan, Tonala y Todo Jalisco</p>
                 </div>
               </div>
-              <h5>Second slide label</h5>
-              <a class="cotizar" href="tel:3338296448">COTIZAR AHORA</a>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="d-block w-100 h-100vh bg-black"></div>
-            <img src="../img/carusel01.jpeg" class="d-block w-100 h-100vh" alt="...">
-
-            <div class="carousel-caption ">
-              <p class="d-block d-md-none b-o">Alambrados En Guadalajara</p>
-              <div class="row">
-                <div class="col-12 d-flex justify-content-center">
-                  <p class="d-none d-md-block b-o">Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-              <h5>Third slide label</h5>
+              <h5>Alambrado con Púas</h5>
               <a class="cotizar" href="tel:3338296448">COTIZAR AHORA</a>
             </div>
           </div>
@@ -200,30 +220,30 @@
         <div class="row justify-content-center">
   
           <div class="col-md-4 col-9 d-flex justify-content-center card-mb">
-            <div class="card full-cards">
-              <img src="./img/carusel01.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h1 class="card-text">Alambrados</h1>
-              </div>
-            </div>
-          </div>
-  
-          <div class="col-md-4 col-9 d-flex justify-content-center card-mb">
-            <div class="card full-cards">
-              <img src="./img/carusel01.jpeg" class="card-img-top" alt="...">
+            <a href="" class="card full-cards">
+              <img src="./img/trabajos/alambrados01.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h1 class="card-text">Alambrados Perimetrales</h1>
               </div>
-            </div>
+            </a>
           </div>
   
           <div class="col-md-4 col-9 d-flex justify-content-center card-mb">
-            <div class="card full-cards">
-              <img src="./img/carusel01.jpeg" class="card-img-top" alt="...">
+            <a href="" class="card full-cards">
+              <img src="./img/trabajos/alambrados-cochera.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h1 class="card-text">Alambrados Perimetrales</h1>
+                <h1 class="card-text">Jaula Para Cochera</h1>
               </div>
-            </div>
+            </a>
+          </div>
+  
+          <div class="col-md-4 col-9 d-flex justify-content-center card-mb">
+            <a href="" class="card full-cards">
+              <img src="./img/trabajos/alambrados-con-cinta.jpeg" class="card-img-top img-resize" alt="...">
+              <div class="card-body">
+                <h1 class="card-text">Alambrados con Cinta</h1>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -232,30 +252,30 @@
         <div class="row justify-content-center">
   
           <div class="col-md-4 col-9 d-flex justify-content-center card-mb ">
-            <div class="card full-cards">
-              <img src="./img/carusel01.jpeg" class="card-img-top" alt="...">
+            <a href="" class="card full-cards">
+              <img src="/img/trabajos/alambrados-electrificados.jpeg" class="card-img-top img-resize" alt="...">
               <div class="card-body">
-                <h1 class="card-text">Alambrados</h1>
+                <h1 class="card-text">Alambrados Electrificados</h1>
               </div>
-            </div>
+            </a>
           </div>
   
           <div class="col-md-4 col-9 d-flex justify-content-center card-mb">
-            <div class="card full-cards">
+            <a href="" class="card full-cards">
+              <img src="/img/trabajos/alambrados-con-puas.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h1 class="card-text">Alambrados con Púas</h1>
+              </div>
+            </a>
+          </div>
+  
+          <div class="col-md-4 col-9 d-flex justify-content-center card-mb">
+            <a href="" class="card full-cards">
               <img src="./img/carusel01.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h1 class="card-text">Alambrados Perimetrales</h1>
               </div>
-            </div>
-          </div>
-  
-          <div class="col-md-4 col-9 d-flex justify-content-center card-mb">
-            <div class="card full-cards">
-              <img src="./img/carusel01.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h1 class="card-text">Alambrados Perimetrales</h1>
-              </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -604,6 +624,18 @@
           </div>
         </div>
       </div>
+
+      <a id="phoneButton" href="tel:33-38-61-51-51" data-action="CALL" target="_blank" rel="noreferrer" aria-label="Phone Button" class="text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 26 26" width="25.667px" height="25.667px" stroke="none">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+        </svg>
+      </a>
+
+      <a id="whatssap" href="https://api.whatsapp.com/send?phone=523331900768&amp;text=Hola%20Paniagua,%20mi%20nombre%20es%20(su nombre aquí)%20me%20interesa%20cotización%20del%20siguiente%20producto:" target="_blank" rel="noreferrer" aria-label="Whatssap Button" class="text-white">
+        <svg x="0px" y="0px" width="25.667px" height="25.667px" viewBox="0 0 30.667 30.667" style="enable-background:new 0 0 30.667 30.667;" stroke="currentColor" fill="white">
+            <path d="M30.667,14.939c0,8.25-6.74,14.938-15.056,14.938c-2.639,0-5.118-0.675-7.276-1.857L0,30.667l2.717-8.017   c-1.37-2.25-2.159-4.892-2.159-7.712C0.559,6.688,7.297,0,15.613,0C23.928,0.002,30.667,6.689,30.667,14.939z M15.61,2.382   c-6.979,0-12.656,5.634-12.656,12.56c0,2.748,0.896,5.292,2.411,7.362l-1.58,4.663l4.862-1.545c2,1.312,4.393,2.076,6.963,2.076   c6.979,0,12.658-5.633,12.658-12.559C28.27,8.016,22.59,2.382,15.61,2.382z M23.214,18.38c-0.094-0.151-0.34-0.243-0.708-0.427   c-0.367-0.184-2.184-1.069-2.521-1.189c-0.34-0.123-0.586-0.185-0.832,0.182c-0.243,0.367-0.951,1.191-1.168,1.437   c-0.215,0.245-0.43,0.276-0.799,0.095c-0.369-0.186-1.559-0.57-2.969-1.817c-1.097-0.972-1.838-2.169-2.052-2.536   c-0.217-0.366-0.022-0.564,0.161-0.746c0.165-0.165,0.369-0.428,0.554-0.643c0.185-0.213,0.246-0.364,0.369-0.609   c0.121-0.245,0.06-0.458-0.031-0.643c-0.092-0.184-0.829-1.984-1.138-2.717c-0.307-0.732-0.614-0.611-0.83-0.611   c-0.215,0-0.461-0.03-0.707-0.03S9.897,8.215,9.56,8.582s-1.291,1.252-1.291,3.054c0,1.804,1.321,3.543,1.506,3.787   c0.186,0.243,2.554,4.062,6.305,5.528c3.753,1.465,3.753,0.976,4.429,0.914c0.678-0.062,2.184-0.885,2.49-1.739   C23.307,19.268,23.307,18.533,23.214,18.38z"></path>
+        </svg>
+    </a>
 
     </div>
 
